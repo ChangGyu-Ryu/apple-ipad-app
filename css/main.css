@@ -224,7 +224,7 @@ a.link::after {
   .info {
     max-width: 230px;
   }
-  .infos--large {
+  .infos--large .info {
     max-width: 288px;
   }
   .info .icon {
@@ -245,13 +245,12 @@ a.link::after {
     max-width: none;
     padding: 0 20px;
   }
-  .infos--large {
+  .infos--large .info {
     max-width: none;
   }
   .info a.link {
     font-size: 17px;
   }
-  
 }
 
 /* White Box */
@@ -2012,7 +2011,7 @@ main {
     transform: translate(-18px, -440px);
   }
   .privacy figure img {
-    width: 441px;
+    width: 441px
   }
   .privacy figcaption .caption-apple-id {
     transform: scale(.8) translate(-22px, -18px);
@@ -2024,10 +2023,10 @@ main {
 
 @media (max-width: 740px) {
   .privacy h1 {
-    width: 227px;
+    width: 277px;
     height: 136px;
-    transform: none;
     margin: 0 auto;
+    transform: none;
   }
   .privacy .figures {
     margin-top: 30px;
@@ -2063,7 +2062,7 @@ main {
     width: 287px;
     height: 205px;
   }
-  .accessibility .infos {
+  .accessibility .info {
     max-width: 346px;
   }
   .accessibility figure {
@@ -2083,7 +2082,7 @@ main {
     margin: 0 auto;
   }
   .accessibility .info {
-    max-width: 0;
+    max-width: none;
   }
   .accessibility .figures {
     margin-top: 30px;
