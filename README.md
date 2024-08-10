@@ -2,7 +2,7 @@
 
 아이패드 제품 페이지를 만드는 예제입니다.
 
-[DEMO](https://apple-ipad-3qsb59qx7-changgyu-ryus-projects.vercel.app/)
+[DEMO](https://apple-ipad-app-liart.vercel.app/)
 ![Screenshots](./images/screenshot1.jpg)
 
 ### Reset.css
